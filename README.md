@@ -36,7 +36,7 @@ Let's take a look inside the `src` folder
   example :
 
   ```
-       PORT = 4000
+       PORT = 5000
   ```
 
   -go inside the src folder and execute the following command:
