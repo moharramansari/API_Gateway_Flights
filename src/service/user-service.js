@@ -3,7 +3,7 @@ const { Op } = require("sequelize");
 const { UserRepository, RoleRepository } = require("../repositories");
 const db = require("../models");
 const AppError = require("../utils/errors/app-error");
-const { Auth, Enums } = require("../utils/common");
+const { Auth } = require("../utils/common");
 
 const userRepo = new UserRepository();
 const roleRepo = new RoleRepository();
